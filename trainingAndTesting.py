@@ -22,7 +22,7 @@ def run():
     print("1: Train existing network")
     print("2: Test Neural Network")
     print("3: Initialize and train neural network")
-    print("WARNING: Initializing will erase your previous training")
+    print("WARNING: Initializing will erase the network's previous training")
     print("4: Train for x minutes")
     mode = int(input())
     if mode < 0 or mode > 4:
